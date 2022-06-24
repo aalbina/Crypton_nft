@@ -6,7 +6,8 @@ import "@nomiclabs/hardhat-waffle";
 import "@typechain/hardhat";
 import "hardhat-gas-reporter";
 import "solidity-coverage";
-import "./tasks/mint";
+import "./tasks/mint721";
+import "./tasks/mint1155";
 
 dotenv.config();
 
